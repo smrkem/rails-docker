@@ -1,0 +1,1 @@
+{"virtualbox":{"/apps":{"create":true,"owner":"vagrant","group":"vagrant","guestpath":"/apps","hostpath":"/Users/citaqs/vagrants/rails-vagrant/code","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/citaqs/vagrants/rails-vagrant/vagrant","disabled":false,"__vagrantfile":true}}}
