@@ -23,6 +23,12 @@ gem install bundler --no-document
 gem install nokogiri --no-document
 gem install rails --no-document
 
+
+# USEFUL ALIASES
+echo $'\n\n' >> ~/.bash_profile
+echo "alias rserverup='rails s -b 0.0.0.0 -d'" >> ~/.bash_profile
+echo 'alias rserverdown="kill -9 $(cat tmp/pids/server.pid)"' >> ~/.bash_profile
+
 echo "--- All Done!"
 
 
