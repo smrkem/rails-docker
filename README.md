@@ -1,15 +1,15 @@
-# RoR BlackJack
+# RoR Docker Template
 
-A basic, ajax blackjack game like this one  
-- http://www.247blackjack.com/  
+## How to use it:
+This uses the latest postgres and the ruby:2.31 images. Pull these down if need be:  
+```
+$ docker pull postgres
+$ docker pull ruby:2.3.1
+```  
 
-## Setup
-After cloning the repository, start up the app with:
-```
-docker-compose up -d
-```
 
-If this is the first time, you need to set up the db:  
+After cloning the repository, build the initial rails app on your host with:  
 ```
-docker-compose run --rm app rake db:create db:migrate
+docker run --rm -it ruby:2.3.1 bash
 ```
+and then the usual rake commands inside the container.
